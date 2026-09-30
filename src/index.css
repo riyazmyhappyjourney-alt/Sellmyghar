@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Poppins', sans-serif;
+  --color-trust-blue: #244B8F;
+  --color-trust-blue-dark: #1B396E;
+  --color-trust-blue-light: #3264BA;
+  --color-ink: #172033;
+  --color-canvas: #F4F6F9;
+  --color-gold-accent: #B68A4A;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background-color: var(--color-canvas);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
